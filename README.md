@@ -6,7 +6,7 @@ Using Data libraries and OOP principles.
 
 Version: 0.0.1a
 
-Dependency (will give a requirments.txt)
+Dependency (will give a requirments.txt; currently none. Just python.)
 
 # SDE  
 SDE LifeCycle: Watefall Approach.
