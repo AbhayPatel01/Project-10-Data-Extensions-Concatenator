@@ -11,7 +11,7 @@ Dependency (will give a requirments.txt; currently none. Just python.)
 # SDE  
 SDE LifeCycle: Watefall Approach.
 
-Software Design: UML Diagrams(considered, not needed in contemporary use cases. ); See Readme.
+Software Design: UML Diagrams(considered, not needed in contemporary use cases.)
 
 System Design: Musings. 
     
