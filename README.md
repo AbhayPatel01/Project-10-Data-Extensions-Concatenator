@@ -41,7 +41,7 @@ Debugging: Conducted.
 
 Version Control (git)
 
-# Use Scenarios/Examples (Note: `>` (indicates unix shell prompt))
+# Use Scenarios/Examples.
 ## 1 File extensions are the same (horizontal concatenation. )
 
 > concater -o=data_file2.tsv -file data_file1.xml 
