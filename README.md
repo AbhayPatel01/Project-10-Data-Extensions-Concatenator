@@ -1,5 +1,6 @@
 # Project-10-Data-Extensions-Concatenator
 Concatenate Data Formats. 
+
 Idea 1:
 Only first idea, is implemented; For time sake. 
 Using Data libraries and OOP principles.
@@ -42,13 +43,17 @@ Version Control (git)
 
 # Use Scenarios/Examples (Note: `>` (indicates unix shell prompt))
 ## 1 File extensions are the same (horizontal concatenation. )
+
 > concater -o=data_file2.tsv -file data_file1.xml 
-(flag becomes mandatory)
+
 > concater -o= data_file.json -file data_file1.json data_file2.json ... 
+
 #Same usecase, works on following extensions: csv,json,xml, tsv. xlsx(excel can work on systems with openpyxl; not tested.)  
-> concater -o= data_file.xml -file data_file1.csv data_file1.json ...
+
+> concater -o= data_file.xml -file data_file1.csv data_file1.json data_file2.tsv ...
 
 # In Next Version
+- Row, Col Flag for choosing Subset of data. 
 - Packaging for package managers. 
 - Security Consideration: Encrypted Data Handling/When entered. (Other ideas, not considered as need to learn.)
 - Concurrency: Multithreading/Multiprocessing/Other Language based features with context and critical tradeoffs, thinking in consideration. 
@@ -79,7 +84,7 @@ Include-Title
 ### AIMS Analysis. 
  Purpose/why/problem: Easy Cli format/extensions conversion between different data formats. 
  
- Stakeholder: Data Scientist, Analysts, ML/Data Engineers.
+ Stakeholder: Anyone interested in cli data format conversion. 
  
  Result: 2 Scenarios, accomplished. 
  
