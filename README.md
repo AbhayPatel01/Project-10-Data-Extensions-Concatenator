@@ -30,7 +30,7 @@ Programming Paradigm: OOP & Functional (little)
 
 Conceptual notion: Various data extensions - horizontal/vertical concatenation.
 
-Extensions: json, csv, tsv, xml conversion, more semi-structured data. (xslx Excle files to be ) 
+Extensions: json, csv, tsv, xml conversion, more semi-structured data. 
 
 Scalability Consideration: One Process, One Thread; No distributed systems/etc. (Other ideas, not considered; as not required for program.)
 
@@ -61,6 +61,7 @@ Version Control (git)
     > concater [ -v ] data_file1.csv datafile2.csv ...
     > concater [ --output/-o=xlsx ] data_file1.tsv data_file2.tsv ...
     > concater --join-type=left-outer
+- Excel(xlsx/xls files) Data Format Added. 
 
 ### 2 File extensions differ (2 or more)
 > concater  --output/-o=xlsx [-h|-v]  data_file1.csv data_file2.tsv ...
@@ -73,14 +74,11 @@ Version Control (git)
 
 > concater -show=n datafile1.json datafile2.csv ...
 Shows n/2 lines from top and bottom.
-
-Options to consider:
-Include-Title
  
 ### Improvements
     Speed: Could be much much faster. Lower level coding (c); 
     Testing -> pytest/unittest (have to mock it.)
-
+    More Options. 
 ### AIMS Analysis. 
  Purpose/why/problem: Easy Cli format/extensions conversion between different data formats. 
  
@@ -89,4 +87,3 @@ Include-Title
  Result: 2 Scenarios, accomplished. 
  
  Succes Criteria: weren't established (next version)
-
